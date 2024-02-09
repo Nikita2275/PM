@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColor">#000000</color> <!-- Цвет текста -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- Цвет фона -->
+    <color name="backgroundColor1">#000000</color>
+    <color name="zagolovok">#FF0000</color>
+    <color name="text">#00CC00</color><!-- Цвет фона -->
+    <color name="grey">#808080</color>
+    <color name="yelow">#FFCD00</color>
+    <color name="blue">#0089FF</color>
+</resources>

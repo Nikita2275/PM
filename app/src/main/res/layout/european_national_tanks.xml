@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".European_national_tanks">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:titleTextColor="@android:color/white"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar1">
+
+        <TableLayout
+            android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp">
+
+            <com.example.tanks_blitz.RoundImageView
+                android:onClick="OnClickProgetto_65"
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10sp"
+                android:background="@color/grey"
+                app:srcCompat="@drawable/progetto65" />
+
+            <com.example.tanks_blitz.RoundImageView
+                android:onClick="OnClickTVP"
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10sp"
+                android:background="@color/grey"
+                app:srcCompat="@drawable/tvp" />
+
+            <com.example.tanks_blitz.RoundImageView
+                android:onClick="OnClickCs63"
+                android:id="@+id/imageView3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10sp"
+                android:background="@color/grey"
+                app:srcCompat="@drawable/cs_63" />
+
+            <com.example.tanks_blitz.RoundImageView
+                android:onClick="OnClickVz55"
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10sp"
+                android:background="@color/grey"
+                app:srcCompat="@drawable/vz_55" />
+
+            <com.example.tanks_blitz.RoundImageView
+                android:onClick="OnClick60tp"
+                android:id="@+id/imageView5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10sp"
+                android:background="@color/grey"
+                app:srcCompat="@drawable/tp60_lewandowskiego" />
+
+            <com.example.tanks_blitz.RoundImageView
+                android:onClick="OnClickKran"
+                android:id="@+id/imageView6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10sp"
+                android:background="@color/grey"
+                app:srcCompat="@drawable/kranvagn" />
+
+            <com.example.tanks_blitz.RoundImageView
+                android:onClick="OnClickMino"
+                android:id="@+id/imageView7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10sp"
+                android:background="@color/grey"
+                app:srcCompat="@drawable/minotauro" />
+
+        </TableLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

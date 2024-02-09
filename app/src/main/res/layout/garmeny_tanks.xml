@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Garmeny_Tanks">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:titleTextColor="@android:color/white"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar1">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp">
+
+            <com.example.tanks_blitz.RoundImageView
+                android:onClick="OnClickLeo"
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10sp"
+                android:background="@color/grey"
+                app:srcCompat="@drawable/leopard_1" />
+
+            <com.example.tanks_blitz.RoundImageView
+                android:onClick="OnClickGrile"
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10sp"
+                android:background="@color/grey"
+                app:srcCompat="@drawable/grille_15" />
+
+            <com.example.tanks_blitz.RoundImageView
+                android:onClick="OnClickMouse"
+                android:id="@+id/imageView3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10sp"
+                android:background="@color/grey"
+                app:srcCompat="@drawable/maus" />
+
+            <com.example.tanks_blitz.RoundImageView
+                android:onClick="OnClickJg_Pz_E100"
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10sp"
+                android:background="@color/grey"
+                app:srcCompat="@drawable/jgpz_e_100" />
+
+            <com.example.tanks_blitz.RoundImageView
+                android:onClick="OnClickE50"
+                android:id="@+id/imageView5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10sp"
+                android:background="@color/grey"
+                app:srcCompat="@drawable/e_50_m" />
+
+            <com.example.tanks_blitz.RoundImageView
+                android:onClick="OnClickE100"
+                android:id="@+id/imageView6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10sp"
+                android:background="@color/grey"
+                app:srcCompat="@drawable/e_100" />
+
+            <com.example.tanks_blitz.RoundImageView
+                android:onClick="OnClickVk7201"
+                android:id="@+id/imageView7"
+                android:layout_height="100dp"
+                android:layout_margin="10sp"
+                android:background="@color/grey"
+                app:srcCompat="@drawable/vk" />
+
+        </TableLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

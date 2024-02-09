@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:onClick="Click_o_programme"
+        android:title="О приложении"
+        android:id="@+id/select1"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+        />
+
+</menu>

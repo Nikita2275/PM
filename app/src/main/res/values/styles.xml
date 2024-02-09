@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LightTheme" parent="Theme.Tanks_Blitz">
+
+    </style>
+
+    <style name="DarkTheme" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.Design.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

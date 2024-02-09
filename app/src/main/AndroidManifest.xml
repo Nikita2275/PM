@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/LightTheme"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Home"
+            android:exported="true"/>
+        <activity
+            android:name=".Wz_132_1"
+            android:exported="true" />
+        <activity
+            android:name=".Garmeny_Tanks"
+            android:exported="true" />
+        <activity
+            android:name=".E50M"
+            android:exported="true" />
+        <activity
+            android:name=".Setting"
+            android:exported="true" />
+        <activity
+            android:name=".Country"
+            android:exported="true" />
+        <activity
+            android:name=".Sssr_Tanks"
+            android:exported="true" />
+        <activity
+            android:name=".O_programme"
+            android:exported="true" />
+        <activity
+            android:name=".China_tanks"
+            android:exported="true" />
+        <activity
+            android:name=".France_tanks"
+            android:exported="true" />
+        <activity
+            android:name=".European_national_tanks"
+            android:exported="true" />
+        <activity
+            android:name=".Japan_tanks"
+            android:exported="true" />
+        <activity
+            android:name=".Leopard_1"
+            android:exported="true" />
+        <activity
+            android:name=".Grile"
+            android:exported="true" />
+        <activity
+            android:name=".Mause"
+            android:exported="true" />
+        <activity
+            android:name=".Jg_Pz_E100"
+            android:exported="true" />
+        <activity
+            android:name=".E_100"
+            android:exported="true" />
+        <activity
+            android:name=".Vk_7201_K"
+            android:exported="true" />
+        <activity
+            android:name=".Is_4"
+            android:exported="true" />
+        <activity
+            android:name=".Is_7"
+            android:exported="true" />
+        <activity
+            android:name=".Object_140"
+            android:exported="true" />
+        <activity
+            android:name=".Object_263"
+            android:exported="true" />
+        <activity
+            android:name=".Object_268"
+            android:exported="true" />
+        <activity
+            android:name=".T_100LT"
+            android:exported="true" />
+        <activity
+            android:name=".TVP"
+            android:exported="true" />
+        <activity
+            android:name=".Cs_63"
+            android:exported="true" />
+        <activity
+            android:name=".Vz_55"
+            android:exported="true" />
+        <activity
+            android:name=".TP_60"
+            android:exported="true" />
+        <activity
+            android:name=".Kranvagn"
+            android:exported="true" />
+        <activity
+            android:name=".Minotauro"
+            android:exported="true" />
+        <activity
+            android:name=".T110E3"
+            android:exported="true" />
+        <activity
+            android:name=".T110E4"
+            android:exported="true" />
+        <activity
+            android:name=".T110E5"
+            android:exported="true" />
+        <activity
+            android:name=".Wz_121"
+            android:exported="true" />
+        <activity
+            android:name=".Wz_113"
+            android:exported="true" />
+        <activity
+            android:name=".Wz_113G"
+            android:exported="true" />
+        <activity
+            android:name=".Bc_25"
+            android:exported="true" />
+        <activity
+            android:name=".Fotch"
+            android:exported="true" />
+        <activity
+            android:name=".Amx_50_B"
+            android:exported="true" />
+        <activity
+            android:name=".Stb_1"
+            android:exported="true" />
+        <activity
+            android:name=".Ho_Ri"
+            android:exported="true" />
+        <activity
+            android:name=".Type_71"
+            android:exported="true" />
+        <activity
+            android:name=".Progetto_65"
+            android:exported="true" />
+    </application>
+
+</manifest>
